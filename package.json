@@ -1,0 +1,19 @@
+{
+  "name": "founder360-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python scripts/serve.py",
+    "build": "vite build --config frontend/vite.config.js",
+    "test": "python -m unittest discover -s backend/tests -v"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
